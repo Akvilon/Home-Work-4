@@ -1,17 +1,13 @@
-.ground {
+body {
 	background-image: url('Layers/background/main_background.png');
-	height: 978px;
-	width: 1320px;
-   border: 1px solid grey;
-   margin: 0 auto;
+   
 }
 
 .wrapper {
 	background-image: url('Layers/background/background.png');
 	margin: 0 auto;
-	height: 918px;
-	width: 1000px;
-   margin-top: 35px;
+	height: 920px;
+   width: 1000px;
    box-shadow: 0px 5px 9px 1px rgba(0,0,0,1);
 }
 
@@ -19,20 +15,20 @@
 /*HEADER*/
 
 .header {
-	height: 178px;
+	height: 174px;
 }
 
 .logo {
    float: left;
    height: 164px;
    width: 283px;
-   margin-top: 14px;
+   margin-top: 10px;
    margin-left: 30px;
 }
 
 .contacts {
    float: right;
-   margin-top: 10px;
+   margin-top: 5px;
    margin-right: 34px;
    color: #128aa7;
    font-family: Tahoma;
@@ -40,31 +36,37 @@
    line-height: 1.5em;
 }
 
+
 .countries {
-   height: 40px;
+   height: 57px;
    width: 390px;
    float: right;
    clear: right;
-   margin-top: 22px;
-   margin-right: 10px;
+   margin-top: 33px;
+   margin-right: 15px;
 }
 
-.countries_list_points {
-   height: 40px;
-   float: left;
-   padding: 10px;
 
+.countries_list_points {
+   
+   float: left;
+   padding-left: 15px;
+   padding-right: 5px;
+   text-align: center;
+   width: 42px;
+}
+
+.countries_list_points>span {
+  
 }
 
 .countries_link {
    color: #128aa7;
-   font-size: 12px;
-   text-decoration: underline;
+   font-size: 10px;
+   display: block;
+   
 }
 
-.countries_link>span {
-   position: absolute;
-}
 
 /*Photo*/
 
@@ -77,15 +79,18 @@
 /*Navigation*/
 
 .nav {
-	height: 28px;
+	height: 34px;
 	width: 1000px;
 	background-color: #303030;
    box-shadow: 0px 3px 4px -2px rgba(0,0,0,1);
    border-bottom: 1.5px solid black;
+   line-height: 34px;
+   vertical-align: center;
 }
 
 .nav_list {
 	display: block;
+
 }
 .nav_list::after {
 	content:'';
@@ -96,7 +101,8 @@
 .nav_list_item {
 	float: left;
 	position: relative;
-	height: 28px;
+	height: 34px;
+
 }
 
 .nav_list_item a {
@@ -106,13 +112,15 @@
 	font-family: Tahoma;
 	font-size: 14px;
    height: 100%;
-   padding: 6px 10px 40px 55px;
+   padding: 0px 10px 0px 55px;
+
 }
 
 .nav_list_item>a>span {
    font-size: 6px;
    text-align: center;
    vertical-align: middle;
+   line-height: 34px;
 }
 
 
@@ -120,9 +128,9 @@
 	display: none;
 	position: absolute;
 	margin: 0;
-	top: 28px;
+	top: 34px;
 	left: 45px;
-	width: 140px;
+	width: 150px;
 	border-top: 1px solid black;
    box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.77);
 }
@@ -130,6 +138,7 @@
 .drop_menu_1_item {
 	display: block;
 	float: none;
+   line-height: 25px;
 }
 
 .drop_menu_1_item>a {
@@ -137,7 +146,8 @@
 	text-decoration: none;
 	color: #fff;
 	background-color: #303030;
-   padding: 5px 0px 5px 9px;
+   padding-left: 9px;
+   padding-bottom: 5px;
 
 }
 
@@ -149,9 +159,9 @@
    display: none;
    position: absolute;
    margin: 0;
-   top: 28px;
+   top: 34px;
    left: 45px;
-   width: 140px;
+   width: 150px;
    border-top: 1px solid black;
    box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.77);
 }
@@ -159,6 +169,7 @@
 .drop_menu_2_item {
    display: block;
    float: none;
+   line-height: 25px;
 }
 
 .drop_menu_2_item>a {
@@ -166,16 +177,17 @@
    text-decoration: none;
    color: #fff;
    background-color: #303030;
-   padding: 5px 0px 5px 9px;
+   padding-left: 9px;
+   padding-bottom: 5px;
 }
 
 .drop_menu_3 {
    display: none;
    position: absolute;
    margin: 0;
-   top: 28px;
+   top: 34px;
    left: 45px;
-   width: 140px;
+   width: 150px;
    border-top: 1px solid black;
    box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.77);
 }
@@ -183,6 +195,7 @@
 .drop_menu_3_item {
    display: block;
    float: none;
+   line-height: 25px;
 }
 
 .drop_menu_3_item>a {
@@ -190,7 +203,8 @@
    text-decoration: none;
    color: #fff;
    background-color: #303030;
-   padding: 5px 0px 5px 9px;
+   padding-left: 9px;
+   padding-bottom: 5px;
 }
 
 
@@ -269,4 +283,3 @@ h2 {
    color: #fff;
    font-size: 12px;
 }
-
